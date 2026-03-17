@@ -1,7 +1,5 @@
 # 4tpro_2026_test
 
-Nowa zawartość pliku readme.
-
-Jeszcze coś dopisałem.
-
-Nowa zawartość
+1. Po sklonowaniue uruchom: npm install
+2. Do kompilacji dev użyj: npm run dev
+3. Do kompilacji produkcyjjnej użyj: npm rum prod
