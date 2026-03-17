@@ -2,4 +2,6 @@
 
 Nowa zawartość pliku readme.
 
-Jeszcze coś dopisałem..
+Jeszcze coś dopisałem.
+
+Nowa zawartość
