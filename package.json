@@ -1,0 +1,20 @@
+{
+  "name": "laravel-mox-project",
+  "version": "0.0.1",
+  "description": "Pierwsze uzycie Laravel Mix",
+  "license": "MIT",
+  "author": "Ja",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx mix watch",
+    "prod": "npx mix --production"
+  },
+  "devDependencies": {
+    "bootstrap": "^5.3.8",
+    "laravel-mix": "^6.0.49",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.97.3",
+    "sass-loader": "^12.1.0"
+  }
+}
