@@ -1,21 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Miłosz S</title>
     <script src="../assets/dist/script.js"></script>
     <link rel="stylesheet" href="../assets/dist/style.css">
+    <style>
+        .hero {
+            background: linear-gradient(135deg, #6c63ff 0%, #a78bfa 100%);
+            color: white;
+            padding: 5rem 0 4rem;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 700;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .hero .badge {
+            font-size: .85rem;
+            margin: .2rem;
+            background-color: rgba(255,255,255,0.2) !important;
+        }
+
+        footer {
+            background-color: #212529;
+            color: #adb5bd;
+            text-align: center;
+            padding: 1.5rem;
+            font-size: .85rem;
+        }
+    </style>
 </head>
 <body>
-    <main class="container mt-5">
-        <div class="row">
-            <div class="col">
-                <h1>Strona Miłosza S</h1>
-                <p>Super strona</p>
-                <p><a href='https://teksek.github.io/'>Link do mojej strony</a></p>
+    <div class="hero">
+        <div class="container">
+            <h1>Miłosz S</h1>
+            <p class="mb-3">Technik programista</p>
+            <div class="mb-4">
+                <span class="badge">PHP</span>
+                <span class="badge">JavaScript</span>
+                <span class="badge">Java</span>
+                <span class="badge">HTML/CSS</span>
+                <span class="badge">Python</span>
             </div>
+            <a href="https://teksek.github.io/" class="btn btn-light btn-lg" target="_blank">
+                🌐 Moja strona główna
+            </a>
         </div>
-    </main>
+    </div>
+    <footer>
+        &copy; 2025 teksek
+    </footer>
 </body>
 </html>
